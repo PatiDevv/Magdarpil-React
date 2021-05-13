@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  height: 100vh;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* ---------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------- */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+}
+
+/* ------ HEADINGS ------ */
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1 {
+  color: #fff;
+  word-spacing: 5px;
+  font-size: 210%;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin: 40px 0px 35px 0;
+}
+
+h2 {
+  color: #555;
+  word-spacing: 2px;
+  font-size: 180%;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  width: 200px;
+  background-color: #a471c1;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+h4 {
+  color: #555;
+  word-spacing: 1px;
+  font-size: 140%;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h4:after {
+  display: block;
+  height: 1px;
+  width: 400px;
+  background-color: #a471c1;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+p {
+  line-height: 135%;
+}
+
+/* ------ BUTTONS ------ */
+
+/* ---------------------------------------- */
+/* HEADERS NAV */
+/* ---------------------------------------- */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../images/ajra.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.zkwp-fci {
+  height: 90px;
+  width: auto;
+  text-decoration: none;
+}
+
+.hero-text-box {
+  width: 750px;
+  float: right;
+  text-align: right;
+  margin: 4% 3% 0 0;
+}
+
+/* Main navi */
+
+/* ---------------------------------------- */
+/* SECTION AJRA */
+/* ---------------------------------------- */
+
+.section-ajra {
+  background-color: #f4f4f4;
+}
+
+.steps-box:last-child {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.superpies-box {
+  margin-top: 0px;
+}
+
+.ajra-icon {
+  color: rgba(100, 58, 124, 0.7);
+  float: left;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  font-size: 100%;
+  margin-right: 25px;
+}
+
+.ajra-description {
+  padding: 3% 0 3% 0%;
+  line-height: 135%;
+  margin-top: 20px;
+}
+
+.logo-zkwpfci-img {
+  height: 150px;
+  float: right;
+}
+
+.ajra {
+  width: 90%;
+  margin: 5% 7% 0 0;
+  border-radius: 20px;
+}
+
+/* ---------------------------------------- */
+/* SECTION o nas */
+/* ---------------------------------------- */
+
+.long-copy {
+  text-align: center;
+  font-size: 120%;
+  width: 70%;
+  margin-left: 15%;
+  line-height: 145%;
+  margin-bottom: 3%;
+  letter-spacing: 0.6px;
+}
+
+.row {
+  text-align: center;
+}
+
+.owner {
+  height: 200px;
+  border-radius: 300px;
+
+  opacity: 0.9;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.5s, opacity 0.5s;
+}
+.owner:hover {
+  opacity: 1;
+  transform: scale(1.06);
+}
+
+/* ---------------------------------------- */
+/* SECTION Zanim kupisz psa */
+/* ---------------------------------------- */
+
+.zanim_kupisz {
+  text-align: left;
+  width: 70%;
+  margin-left: 15%;
+  line-height: 135%;
+  margin-bottom: 3%;
+  letter-spacing: 0.6px;
+}
+
+.zanim_kupisz_3 {
+  text-align: justify;
+  width: 70%;
+  margin-left: 15%;
+  line-height: 135%;
+  margin-bottom: 3%;
+  letter-spacing: 0.6px;
+}
+.section-zanim_kupisz {
+  background-color: #f4f4f4;
+}
+
+.zanim_kupisz-icon {
+  color: rgba(100, 58, 124, 0.7);
+  float: left;
+  height: 25px;
+  width: 25px;
+  text-align: left;
+  padding: 2px;
+  font-size: 120%;
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-top: 1px;
+  --ionicon-stroke-width: 30px;
+}
+
+ul li {
+  list-style: none;
+  padding: 3px;
+}
+
+.text_center_normal {
+  text-align: center;
+  font-size: 110%;
+  line-height: 140%;
+  margin-bottom: 2%;
+  letter-spacing: 0.6px;
+}
+
+.text_center_small {
+  text-align: center;
+  font-size: 100%;
+  line-height: 135%;
+  margin-top: 15px;
+}
+
+li {
+  list-style: none;
+  vertical-align: text-bottom;
+}
+
+.p_question {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  margin-right: 100px;
+}
+
+.padding_bottom {
+  padding-bottom: 30px;
+}
+
+/* ---------------------------------------- */
+/* SECTION Nasze szczeniaczki */
+/* ---------------------------------------- */
+
+.puppy-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.puppy-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.puppy-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.puppy-photo img {
+  opacity: 0.7;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 100%;
+  height: auto;
+  transform: scale(1.06);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.puppy-photo img:hover {
+  opacity: 1;
+  transform: scale(1.25);
+}
+
+/* ---------------------------------------- */
+/* FOTTER Nasze szczeniaczki */
+/* ---------------------------------------- */
+
+/* 
+KONTAKT 
+*/
+
+.section-kontakt {
+  background-color: #f4f4f4;
+  padding: 80px 0 40px 0;
+}
+
+.kontakt-box:first-child {
+  text-align: center;
+  padding-right: 0%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kontakt-box:last-child {
+  padding-left: 0%;
+  margin-top: 5%;
+}
+
+.app-screen {
+  width: 50%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.photo-iza {
+  width: 50%;
+  border-radius: 100%;
+  margin-right: 10px;
+  box-shadow: 0 0 1em #a471c1;
+}
+
+.map-icon_third {
+  color: #a471c1;
+  text-align: left;
+  font-size: 200%;
+  padding: 0px 0 10px 0;
+}
+
+.map-icon {
+  color: #a471c1;
+  text-align: left;
+  font-size: 200%;
+  padding: 40px 0 10px 0;
+}
+
+.mapa {
+  margin-right: 0px;
+  margin-top: 70px;
+  width: 60%;
+  border-radius: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #555;
+}
