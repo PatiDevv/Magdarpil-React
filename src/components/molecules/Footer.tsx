@@ -1,8 +1,8 @@
-import React from "react";
 import { LogoFacebook } from "react-ionicons";
 import LinkButton from "../atoms/LinkButton";
+import SocialLink from "../atoms/SocialLink";
+import "../atoms/SocialLink.css";
 import "./Footer.css";
-import "./SocialLink.css";
 
 export const Footer = () => {
   return (
@@ -20,12 +20,10 @@ export const Footer = () => {
 
         <div className="col span-1-of-2">
           <ul className="social-links">
-            <li>
-              <SocialLink
-                icon={<LogoFacebook cssClasses="fb" />}
-                href="https://www.facebook.com/Hodowla-Malta%C5%84czyk%C3%B3w-ZKWP-FCI-Izabela-Kubi%C5%84ska-Magdarpil-192004064917870/?ref=page_internal"
-              />
-            </li>
+            <SocialLink
+              icon={<LogoFacebook height="50px" width="50px" color="#324b80" />}
+              href="https://www.facebook.com/Hodowla-Malta%C5%84czyk%C3%B3w-ZKWP-FCI-Izabela-Kubi%C5%84ska-Magdarpil-192004064917870/?ref=page_internal"
+            />
           </ul>
         </div>
       </div>
@@ -36,18 +34,3 @@ export const Footer = () => {
     </footer>
   );
 };
-
-interface ButtonProps {
-  href: string;
-  icon: React.ReactNode;
-}
-
-export default function SocialLink({ href, icon }: ButtonProps) {
-  return (
-    <li>
-      <a href={href} target="_blank">
-        {icon}
-      </a>
-    </li>
-  );
-}

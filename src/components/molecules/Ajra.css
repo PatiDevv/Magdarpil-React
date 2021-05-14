@@ -1,0 +1,32 @@
+.section-ajra {
+  background-color: #f4f4f4;
+}
+
+.steps-box:last-child {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.superpies-box {
+  margin-top: 0px;
+}
+
+.ajra-description {
+  padding: 3% 0 3% 0%;
+  line-height: 135%;
+  margin-right: 25px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.ajra {
+  width: 90%;
+  margin: 5% 7% 0 0;
+  border-radius: 20px;
+}
+
+.sc-bdnxRM {
+  padding: 6%;
+  align-self: center;
+}

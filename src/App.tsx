@@ -5,15 +5,16 @@ import "./styles/normalize.css";
 import "./styles/queries.css";
 import "./styles/style.css";
 
-import { LogoFacebook, ChatbubbleEllipsesOutline, CallOutline, MapOutline, PawOutline, TimeOutline, HandLeftOutline, HeartOutline, Medal, Heart, Paw } from "react-ionicons";
+import { LogoFacebook, ChatbubbleEllipsesOutline, CallOutline, MapOutline, PawOutline, TimeOutline, HandLeftOutline, HeartOutline } from "react-ionicons";
 import { Header } from "./components/molecules/Header";
 import { Footer } from "./components/molecules/Footer";
+import { Ajra } from "./components/molecules/Ajra";
 
 function App() {
   return (
     <div>
       <Header />
-      <Section1 />
+      <Ajra />
       <Section2 />
       <Section3 />
       <Section4 />
@@ -400,43 +401,6 @@ const Section2 = () => {
 
           <h3>Izabela</h3>
           <p>Spec od wystaw, oceny psów, social mediów. Człowiek psia encyklopedia. To właśnie ona odbierze telefon, gdy do nas zadzwonisz.</p>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-const Section1 = () => {
-  return (
-    <section className="section-ajra" id="ajra">
-      <div className="row">
-        <h2>Ajra &mdash; Super pies</h2>
-      </div>
-
-      <div className="row superpies-box">
-        <div className="col span-1-of-2">
-          <img src="resources/css/img/aj.jpg" alt="Tu powinna się wyświetlić nasza wspaniała Ajra." className="ajra" />
-        </div>
-
-        <div className="col span-1-of-2 steps-box">
-          <div className="ajra-description ">
-            <Medal cssClasses="ajra-icon padding_bottom" />
-            Ajra-White is beautiful (FCI) jest hodowlanym maltańczykiem z rodowodem po III wystawach z satysfakcjonującymi wynikami.
-          </div>
-
-          <div className="ajra-description">
-            <Heart cssClasses="ajra-icon padding_bottom" />
-            Nasza ukochana sunia. Tam gdzie człowiek tam i ona. Ajrulka to bardzo towarzyski pies. Uwielbia przebywać z ludźmi, jest 100% pieszczochem.
-          </div>
-
-          <div className="ajra-description">
-            <Paw cssClasses="ajra-icon padding_bottom" />
-            "Kocham człowieków nad życie, tak mocno jak jedzenie. Uwielbiam komendę daj głos, mogę wtedy legalnie szczekać i jeszcze czasem dostaję smaczek."
-          </div>
-
-          <a className="logo-zkwpfci" href="http://www.zkwp.pl/main.polish/index.html" target="_blank">
-            <img className="logo-zkwpfci-img" src="resources/css/img/zkwp-fci-logo.png" alt="Zkwp Fci logo" />
-          </a>
         </div>
       </div>
     </section>
