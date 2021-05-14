@@ -1,11 +1,11 @@
 import React from "react";
 
-interface IconBig {
+interface IconBigProps {
   text: string;
   icon: React.ReactNode;
 }
 
-export default function IconBig({ icon, text }: IconBig) {
+export default function IconBig({ icon, text }: IconBigProps) {
   return (
     <div className="ajra-description">
       {icon}

@@ -1,0 +1,14 @@
+.breeder {
+  height: 200px;
+  border-radius: 300px;
+
+  opacity: 0.9;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.breeder:hover {
+  opacity: 1;
+  transform: scale(1.06);
+}

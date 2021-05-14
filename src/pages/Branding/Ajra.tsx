@@ -1,9 +1,9 @@
 import React from "react";
 import { Medal, Heart, Paw } from "react-ionicons";
 import "./Ajra.css";
-import ajra from "../../images/aj.jpg";
-import IconBig from "../atoms/IconBig";
-import LogoZKwPFci from "../atoms/LogoZKwPFci";
+import IconBig from "../../components/atoms/IconBig";
+import LogoZKwPFci from "../../components/atoms/LogoZKwPFci";
+import ImageAssets from "../../constants/ImageAssets";
 
 export const Ajra = () => {
   return (
@@ -14,7 +14,7 @@ export const Ajra = () => {
 
       <div className="row superpies-box">
         <div className="col span-1-of-2">
-          <img src={ajra} alt="Tu powinna się wyświetlić nasza wspaniała Ajra." className="ajra" />
+          <img src={ImageAssets.ajraSmall} alt="Tu powinna się wyświetlić nasza wspaniała Ajra." className="ajra-small" />
         </div>
 
         <div className="col span-1-of-2 steps-box">

@@ -1,0 +1,56 @@
+.zanim-kupisz {
+  text-align: left;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 1%;
+  line-height: 135%;
+
+  letter-spacing: 0.6px;
+
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.sc-bdnxRM {
+  padding: 1% 2% 0 0;
+}
+
+.text-center-normal {
+  text-align: center;
+  font-size: 110%;
+  line-height: 140%;
+  margin-bottom: 2%;
+  letter-spacing: 0.6px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.p_question {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  text-align: left;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.text-center-small {
+  text-align: center;
+  font-size: 100%;
+  line-height: 135%;
+  margin-top: 15px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.text-justifi-normal {
+  text-align: justify;
+  width: 70%;
+  margin-left: 15%;
+  line-height: 135%;
+  margin-bottom: 3%;
+  letter-spacing: 0.6px;
+}
+.section-zanim_kupisz {
+  background-color: #f4f4f4;
+}
