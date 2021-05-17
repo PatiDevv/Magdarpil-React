@@ -1,4 +1,4 @@
-.zanim-kupisz {
+.before-buy {
   text-align: left;
   width: 70%;
   margin-left: 15%;
@@ -26,9 +26,9 @@
   margin-left: 15%;
 }
 
-.p_question {
+.p-question {
   margin-bottom: 5px;
-  margin-top: 10px;
+  margin-top: 15px;
   text-align: left;
   width: 70%;
   margin-left: 15%;
@@ -51,6 +51,6 @@
   margin-bottom: 3%;
   letter-spacing: 0.6px;
 }
-.section-zanim_kupisz {
+.section-before-buy {
   background-color: #f4f4f4;
 }

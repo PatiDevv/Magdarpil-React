@@ -1,4 +1,4 @@
-import PawIconPlusText from "../../components/atoms/PawIconPlusText";
+import PawOutlineIconPlusText from "../../components/atoms/PawOutlineIconPlusText";
 import TimeOutlineIconPlusText from "../../components/atoms/TimeOutlineIconPlusText";
 import QuestionIconAnswer from "../../components/atoms/QuestionIconAnswer";
 import HeartOutlineIconPlusText from "../../components/atoms/HeartOutlineIconPlusText";
@@ -6,7 +6,7 @@ import "./BeforeBuy.css";
 
 export const BeforeBuy = () => {
   return (
-    <section className="section-zanim_kupisz" id="zanim_kupisz">
+    <section className="section-before-buy" id="before-buy">
       <div>
         <h2>Zanim kupisz szczeniaczka</h2>
         <p className="long-copy">
@@ -18,10 +18,10 @@ export const BeforeBuy = () => {
       <div>
         <h4>Dlaczego ZKwP FCI?</h4>
         <div>
-          <PawIconPlusText text="Związek krynologiczny w Polsce jako jedyny należy do Międzynarodowej Federacji Kynologicznej (FCI)." />
-          <PawIconPlusText text="Rodowody FCI uznawane są na cały świecie." />
-          <PawIconPlusText text="Jest to organizacja posiadająca w Polsce długoletnią tradycję." />
-          <PawIconPlusText
+          <PawOutlineIconPlusText text="Związek krynologiczny w Polsce jako jedyny należy do Międzynarodowej Federacji Kynologicznej (FCI)." />
+          <PawOutlineIconPlusText text="Rodowody FCI uznawane są na cały świecie." />
+          <PawOutlineIconPlusText text="Jest to organizacja posiadająca w Polsce długoletnią tradycję." />
+          <PawOutlineIconPlusText
             text={
               <div>
                 <>
@@ -36,7 +36,7 @@ export const BeforeBuy = () => {
         <p className="text-center-normal">
           Nowy przyjaciel w domu to wielka radość, ale również obowiązek. To czas który zabieramy sobie, a ofiarowujemy naszemu nowemu członkowi rodziny.
         </p>
-        <p className="p_question">
+        <p className="p-question">
           <strong>Ile godzin w tygoniu potrzebuje poświęcić psu? </strong>
         </p>
         <div>
@@ -143,7 +143,7 @@ export const BeforeBuy = () => {
             answer="Pracujesz 8h dziennie, plus dwie na dojazd i przyjazd. Co kilka tygodni masz weekend szkoleniowy. Właściwie więcej żyjesz poza domem, niż w domu. W takiej sytuacji
             maltańczyk nie jest psem dla Ciebie."
           />
-          <p className="p_question">
+          <p className="p-question">
             <strong>To dla kogo ten pies? </strong>
           </p>
           <HeartOutlineIconPlusText
@@ -156,7 +156,7 @@ export const BeforeBuy = () => {
           <HeartOutlineIconPlusText
             text={
               <>
-                Dla osób, które <strong>&nbsp;czują się samotne&nbsp;</strong>, maltańczyk to świetny towarzysz życia.
+                Dla osób, które <strong>&nbsp;czują się samotne</strong>, maltańczyk to świetny towarzysz życia.
               </>
             }
           />
@@ -165,6 +165,14 @@ export const BeforeBuy = () => {
             text={
               <>
                 Dla osób o <strong>&nbsp;niskiej aktywności fizycznej</strong>, maltańczyk zmotywuje Cię do większej dawki ruchu.
+              </>
+            }
+          />
+
+          <HeartOutlineIconPlusText
+            text={
+              <>
+                Dla osób, <strong> które potrzebują pieszczocha </strong> do głaskania i przytulania.
               </>
             }
           />

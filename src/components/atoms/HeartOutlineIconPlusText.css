@@ -1,0 +1,13 @@
+.before-buy-heart {
+  text-align: left;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 0%;
+  line-height: 135%;
+
+  letter-spacing: 0.6px;
+
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}

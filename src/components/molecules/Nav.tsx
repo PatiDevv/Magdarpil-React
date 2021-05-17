@@ -11,7 +11,7 @@ export const Nav = () => {
         <ul className="main-nav hide">
           <LinkButton variant="header" href="#ajra" name="Ajra" />
           <LinkButton variant="header" href="#o_nas" name="O nas" />
-          <LinkButton variant="header" href="#zanim_kupisz" name="Zanm kupisz" />
+          <LinkButton variant="header" href="#before-buy" name="Zanim kupisz" />
           <LinkButton variant="header" href="#photos" name="Nasze szczeniaki" />
           <LinkButton variant="header" href="#kontakt" name="Kontakt" />
         </ul>

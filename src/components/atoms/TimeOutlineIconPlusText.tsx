@@ -7,7 +7,7 @@ interface IconPlusTextProps {
 
 export default function TimeOutlineIconPlusText({ text }: IconPlusTextProps) {
   return (
-    <div className="zanim-kupisz">
+    <div className="before-buy">
       {<TimeOutline height="25px" width="25px" color="rgba(100, 58, 124, 0.7)" />}
       <div>{text}</div>
     </div>
