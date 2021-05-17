@@ -1,0 +1,32 @@
+.puppy-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.puppy-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.puppy-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.puppy-photo img {
+  opacity: 0.7;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 100%;
+  height: auto;
+  transform: scale(1.06);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.puppy-photo img:hover {
+  opacity: 1;
+  transform: scale(1.25);
+}

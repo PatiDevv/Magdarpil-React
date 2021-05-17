@@ -11,6 +11,7 @@ import { Footer } from "./components/molecules/Footer";
 import { Ajra } from "./pages/Branding/Ajra";
 import { AboutUs } from "./pages/Branding/AboutUs";
 import { BeforeBuy } from "./pages/Branding/BeforeBuy";
+import { Puppies } from "./pages/Branding/Puppies";
 
 function App() {
   return (
@@ -19,90 +20,12 @@ function App() {
       <Ajra />
       <AboutUs />
       <BeforeBuy />
-      <Section4 />
+      <Puppies />
       <Section5 />
       <Footer />
     </div>
   );
 }
-
-const Section4 = () => {
-  return (
-    <section className="section-photos" id="photos">
-      <h2>Nasze szczeniaczki</h2>
-      <div className="row">
-        <ul className="puppy-showcase">
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/l_1.jpg" alt="Miot L" />
-            </figure>
-          </li>
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/l_2.jpg" alt="Miot L" />
-            </figure>
-          </li>
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/l_3.jpg" alt="Miot L" />
-            </figure>
-          </li>
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/l_4.jpg" alt="Miot L" />
-            </figure>
-          </li>
-        </ul>
-
-        <ul className="puppy-showcase">
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/b_1.jpg" alt="Miot B" />
-            </figure>
-          </li>
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/b_2.jpg" alt="Miot B" />
-            </figure>
-          </li>
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/b_3.jpg" alt="Miot B" />
-            </figure>
-          </li>
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/b_4.jpg" alt="Miot B" />
-            </figure>
-          </li>
-        </ul>
-
-        <ul className="puppy-showcase">
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/m_1.jpg" alt="Miot M" />
-            </figure>
-          </li>
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/m_2.jpg" alt="Miot M" />
-            </figure>
-          </li>
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/m_3.jpg" alt="Miot M" />
-            </figure>
-          </li>
-          <li>
-            <figure className="puppy-photo">
-              <img src="resources/css/img/m_4.jpg" alt="Miot M" />
-            </figure>
-          </li>
-        </ul>
-      </div>
-    </section>
-  );
-};
 
 const Section5 = () => {
   return (
