@@ -14,7 +14,7 @@ export const Footer = () => {
             <LinkButton variant="footer" href="#o_nas" name="O nas" />
             <LinkButton variant="footer" href="#zanim_kupisz" name="Zanm kupisz" />
             <LinkButton variant="footer" href="#photos" name="Nasze szczeniaki" />
-            <LinkButton variant="footer" href="#kontakt" name="Kontakt" />
+            <LinkButton variant="footer" href="#contact" name="Kontakt" />
           </ul>
         </div>
 

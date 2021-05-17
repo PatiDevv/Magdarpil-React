@@ -15,6 +15,8 @@ import M1 from "../images/m_1.jpg";
 import M2 from "../images/m_2.jpg";
 import M3 from "../images/m_3.jpg";
 import M4 from "../images/m_4.jpg";
+import IzaSquere from "../images/iza_square.jpg";
+import map from "../images/mapa.png";
 
 export default class ImageAssets {
   static logo = logo;
@@ -34,4 +36,6 @@ export default class ImageAssets {
   static M2 = M2;
   static M3 = M3;
   static M4 = M4;
+  static IzaSquere = IzaSquere;
+  static map = map;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import PrimaryButton from "../atoms/PrimaryButton";
 import { Nav } from "./Nav";
+import "./Header.css";
 
 export const Header = () => {
   return (

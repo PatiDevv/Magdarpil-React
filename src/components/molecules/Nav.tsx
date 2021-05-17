@@ -13,7 +13,7 @@ export const Nav = () => {
           <LinkButton variant="header" href="#o_nas" name="O nas" />
           <LinkButton variant="header" href="#before-buy" name="Zanim kupisz" />
           <LinkButton variant="header" href="#photos" name="Nasze szczeniaki" />
-          <LinkButton variant="header" href="#kontakt" name="Kontakt" />
+          <LinkButton variant="header" href="#contact" name="contact" />
         </ul>
       </div>
     </nav>

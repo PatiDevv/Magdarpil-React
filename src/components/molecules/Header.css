@@ -1,0 +1,13 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../../images/ajra.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-text-box {
+  width: 750px;
+  float: right;
+  text-align: right;
+  margin: 4% 3% 0 0;
+}
