@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="col span-1-of-2">
           <ul className="footer-nav">
             <LinkButton variant="footer" href="#ajra" name="Ajra" />
-            <LinkButton variant="footer" href="#o_nas" name="O nas" />
+            <LinkButton variant="footer" href="#about-us" name="O nas" />
             <LinkButton variant="footer" href="#zanim_kupisz" name="Zanm kupisz" />
             <LinkButton variant="footer" href="#photos" name="Nasze szczeniaki" />
             <LinkButton variant="footer" href="#contact" name="Kontakt" />

@@ -14,7 +14,7 @@ export const Header = () => {
             100% miłości do psów.
           </h1>
 
-          <PrimaryButton href="#o_nas" text="Poznaj nas" />
+          <PrimaryButton href="#about-us" text="Poznaj nas" />
         </div>
       </div>
     </header>

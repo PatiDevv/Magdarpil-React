@@ -7,7 +7,7 @@
   margin-top: 0px;
 }
 
-.superpies-box {
+.superDog-box {
   margin-top: 0px;
 }
 
@@ -20,13 +20,13 @@
   align-items: center;
 }
 
+.ajra-description > span {
+  padding: 6%;
+  align-self: center;
+}
+
 .ajra-small {
   width: 90%;
   margin: 5% 5% 0 5%;
   border-radius: 20px;
-}
-
-.sc-bdnxRM {
-  padding: 6%;
-  align-self: center;
 }

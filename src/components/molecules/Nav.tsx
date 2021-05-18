@@ -10,10 +10,10 @@ export const Nav = () => {
         <Logo />
         <ul className="main-nav hide">
           <LinkButton variant="header" href="#ajra" name="Ajra" />
-          <LinkButton variant="header" href="#o_nas" name="O nas" />
+          <LinkButton variant="header" href="#about-us" name="O nas" />
           <LinkButton variant="header" href="#before-buy" name="Zanim kupisz" />
           <LinkButton variant="header" href="#photos" name="Nasze szczeniaki" />
-          <LinkButton variant="header" href="#contact" name="contact" />
+          <LinkButton variant="header" href="#contact" name="Kontakt" />
         </ul>
       </div>
     </nav>

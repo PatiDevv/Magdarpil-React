@@ -31,3 +31,15 @@ footer {
 .social-links {
   list-style: none;
 }
+
+@media only screen and (max-width: 860px) {
+  .footer-nav {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 757px) {
+  .footer-nav {
+    text-align: left;
+  }
+}

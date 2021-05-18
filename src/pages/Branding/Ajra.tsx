@@ -12,7 +12,7 @@ export const Ajra = () => {
         <h2>Ajra &mdash; Super pies</h2>
       </div>
 
-      <div className="row superpies-box">
+      <div className="row superDog-box">
         <div className="col span-1-of-2">
           <img src={ImageAssets.ajraSmall} alt="Tu powinna się wyświetlić nasza wspaniała Ajra." className="ajra-small" />
         </div>

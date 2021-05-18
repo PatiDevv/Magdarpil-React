@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import "./styles/grid.css";
 import "./styles/normalize.css";
-import "./styles/queries.css";
 import "./styles/style.css";
 
 import { Header } from "./components/molecules/Header";

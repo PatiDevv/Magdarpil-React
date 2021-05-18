@@ -5,14 +5,14 @@ import "./AboutUs.css";
 
 export const AboutUs = () => {
   return (
-    <section className="section-o_nas" id="o_nas">
+    <section className="section-about-us" id="about-us">
       <div className="row">
         <h2>O nas</h2>
         <p className="long-copy">
           Nasz zespół to rodzina, której fundamentem jest miłość. Miłość do bliźniego i do psa jego. Początek hodowli to rok 2018, miłość do maltańczyków to zdecydowanie rok 2016.
         </p>
       </div>
-      <div className="row o_nas">
+      <div className="row about-us">
         <Breeder
           src={ImageAssets.ONas1}
           breederName="Dariusz"
