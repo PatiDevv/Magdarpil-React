@@ -12,7 +12,7 @@ export const Footer = () => {
           <ul className="footer-nav">
             <LinkButton variant="footer" href="#ajra" name="Ajra" />
             <LinkButton variant="footer" href="#about-us" name="O nas" />
-            <LinkButton variant="footer" href="#zanim_kupisz" name="Zanm kupisz" />
+            <LinkButton variant="footer" href="#before-buy" name="Zanim kupisz" />
             <LinkButton variant="footer" href="#photos" name="Nasze szczeniaki" />
             <LinkButton variant="footer" href="#contact" name="Kontakt" />
           </ul>
