@@ -131,3 +131,75 @@
     margin-left: 5%;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .before-buy {
+    width: 94%;
+    margin-left: 3%;
+  }
+
+  .before-buy-paw {
+    width: 94%;
+    margin-left: 3%;
+  }
+  .before-buy-heart {
+    width: 94%;
+    margin-left: 3%;
+  }
+
+  .text-center-normal {
+    width: 94%;
+    margin-left: 3%;
+  }
+
+  .text-center-small {
+    width: 94%;
+    margin-left: 3%;
+  }
+
+  .text-justifi-normal {
+    width: 94%;
+    margin-left: 3%;
+  }
+
+  .p-question {
+    width: 94%;
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .before-buy {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .before-buy-paw {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .before-buy-heart {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .text-center-normal {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .text-center-small {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .text-justifi-normal {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .p-question {
+    width: 100%;
+    margin-left: 0%;
+  }
+}

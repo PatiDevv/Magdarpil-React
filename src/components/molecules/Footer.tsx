@@ -21,7 +21,7 @@ export const Footer = () => {
         <div className="col span-1-of-2">
           <ul className="social-links">
             <SocialLink
-              icon={<LogoFacebook height="50px" width="50px" color="#324b80" />}
+              icon={<LogoFacebook height="40px" width="40px" color="#324b80" />}
               href="https://www.facebook.com/Hodowla-Malta%C5%84czyk%C3%B3w-ZKWP-FCI-Izabela-Kubi%C5%84ska-Magdarpil-192004064917870/?ref=page_internal"
             />
           </ul>

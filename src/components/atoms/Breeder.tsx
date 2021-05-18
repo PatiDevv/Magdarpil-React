@@ -10,7 +10,7 @@ interface BreederProps {
 
 export default function Breeder({ href, src, breederName, breederDescription }: BreederProps) {
   return (
-    <div className="col span-1-of-3">
+    <div className="col span-1-of-3 breeder-full">
       <a href={href} target="_blank">
         <img className="breeder" src={src} alt="Hodowca" />
       </a>

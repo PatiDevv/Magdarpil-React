@@ -25,7 +25,7 @@ export const BeforeBuy = () => {
             text={
               <div>
                 <>
-                  Pies z rodowodem ZKwP FCI to <strong>&nbsp;pewność dobrych genów i zdrowego psa</strong>.
+                  Pies z rodowodem ZKwP FCI to&nbsp; <strong>pewność dobrych genów i zdrowego psa</strong>.
                 </>
               </div>
             }

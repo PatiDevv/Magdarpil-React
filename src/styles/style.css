@@ -130,5 +130,38 @@ p {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
+  h4:after {
+    width: 100px;
+  }
+
+  h2:after {
+    width: 150px;
+  }
+
+  h1 {
+    word-spacing: 4px;
+    letter-spacing: 3.5px;
+  }
+
+  h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  section {
+    padding: 35px 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    letter-spacing: 2px;
+  }
 }
