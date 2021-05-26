@@ -7,7 +7,7 @@
 /* Sticky navi */
 .sticky {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.98);
+  background-color: rgba(255, 255, 255, 0.986);
   top: 0;
   left: 0;
   width: 100%;
@@ -16,7 +16,7 @@
 }
 
 .sticky .main-nav {
-  margin-top: 20px;
+  margin: 15px;
 }
 
 .sticky .main-nav li a:link,
@@ -25,12 +25,7 @@
   color: #555;
 }
 
-.sticky .logo {
-  display: none;
-}
-.sticky .logo-black {
-  display: block;
-}
+
 
 @media only screen and (max-width: 825px) {
   .main-nav li {

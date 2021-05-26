@@ -7,7 +7,7 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <footer>
-      <div className="row">
+      <div className="row row2">
         <div className="col span-1-of-2">
           <ul className="footer-nav">
             <LinkButton variant="footer" href="#ajra" name="Ajra" />
@@ -28,7 +28,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row row2">
         <p className="p-footer">2021 For my family and for study - Patrycja</p>
       </div>
     </footer>
