@@ -1,4 +1,3 @@
-import logo from "../images/logo.png";
 import ajraSmall from "../images/ajra-small.jpg";
 import ONas1 from "../images/o_nas_1.jpg";
 import ONas2 from "../images/o_nas_2.jpg";
@@ -19,7 +18,6 @@ import IzaSquere from "../images/iza_square.jpg";
 import map from "../images/mapa.png";
 
 export default class ImageAssets {
-  static logo = logo;
   static ajraSmall = ajraSmall;
   static ONas1 = ONas1;
   static ONas2 = ONas2;

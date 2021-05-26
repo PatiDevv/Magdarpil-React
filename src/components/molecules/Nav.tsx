@@ -8,7 +8,6 @@ export const Nav = ({ isNavSticky }: { isNavSticky: boolean }) => {
   return (
     <nav className={isNavSticky ? "sticky" : ""}>
 
-      <img className={ImageAssets.logo} alt="Magdarpil-logo" />
       <ul className="main-nav">
         <LinkButton variant="header" href="#ajra" name="Ajra" />
         <LinkButton variant="header" href="#about-us" name="O nas" />
