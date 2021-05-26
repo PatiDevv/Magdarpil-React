@@ -1,7 +1,6 @@
 import React from "react";
 import useStickyState from "../../hooks/useStickyState";
 import PrimaryButton from "../atoms/PrimaryButton";
-import { ListOutline } from 'react-ionicons'
 import "./Header.css";
 import { Nav } from "./Nav";
 
