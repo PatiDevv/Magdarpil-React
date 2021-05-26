@@ -1,5 +1,6 @@
 import React from "react";
 import { ListOutline } from "react-ionicons";
+import ImageAssets from "../../constants/ImageAssets";
 import LinkButton from "../atoms/LinkButton";
 import "./Nav.css";
 
@@ -7,7 +8,7 @@ export const Nav = ({ isNavSticky }: { isNavSticky: boolean }) => {
   return (
     <nav className={isNavSticky ? "sticky" : ""}>
 
-      {/* <Logo /> */}
+      <img className={ImageAssets.logo} alt="Magdarpil-logo" />
       <ul className="main-nav">
         <LinkButton variant="header" href="#ajra" name="Ajra" />
         <LinkButton variant="header" href="#about-us" name="O nas" />
