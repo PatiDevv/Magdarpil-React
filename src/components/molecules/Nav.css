@@ -1,7 +1,17 @@
 .main-nav {
   float: left;
   list-style: none;
-  margin: 2% 0 0 0;
+  margin: 2% 2% 0 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-nav{
+  display: flex;
+  align-items: center;
+  text-align: center;
+
 }
 
 /* Sticky navi */
@@ -25,34 +35,32 @@
   color: #555;
 }
 
-
-
-
-
-
-@media only screen and (max-width: 825px) {
-  .main-nav li {
-    display: inline-block;
-    margin-left: 20px;
-  }
-}
-
 @media only screen and (max-width: 680px) {
-  .main-nav li {
-    display: inline-block;
-  }
-
   h1 {
     font-size: 150%;
   }
+  .main-nav{
+    font-size: 95%;
+  }
 }
 
-
+@media only screen and (max-width: 650px) {
+  
+  .main-nav{
+    font-size: 95%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1% 1% 0 0;
+    
+  }
+}
 
 @media only screen and (max-width: 500px) {
   h1 {
     font-size: 130%;
   }
+  
 }
 
 @media only screen and (max-width: 457px) {
@@ -65,22 +73,21 @@
   .main-nav {
     display:flex;
     text-align: center;
-    align-items: center
+    align-items: center;
+    
   }
   .main-nav li {
     display:flex;
-    
     margin: 0px 10px;
+    align-items: center;
+    font-size: 80%;
   }
+}
 
-  .main-nav li:last-child {
-   margin-right: 4px;
-  }
+@media only screen and (max-width: 480px) {
+  
 
   .sticky .main-nav {
-    margin: 4px;
-    font-size: 90%;
-  }
-
-  
+    margin: 5px;
+}
 }
