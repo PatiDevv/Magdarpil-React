@@ -37,9 +37,13 @@ footer {
   list-style: none;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 950px) {
   .footer-nav {
     font-size: 80%;
+  }
+  .footer {
+    margin-left: 5px; 
+    margin-right: 5px; 
   }
 }
 
@@ -47,6 +51,8 @@ footer {
   .footer-nav {
     text-align: left;
   }
+
+  
 }
 
 @media only screen and (max-width: 480px) {
@@ -67,4 +73,5 @@ footer {
   .social-links li {
     margin-top: 10px;
   }
+
 }

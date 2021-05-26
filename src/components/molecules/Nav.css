@@ -25,21 +25,8 @@
   color: #555;
 }
 
-.listOutline {
-  display: none;
-}
 
-@media only screen and (max-width: 500px) {
-  .listOutline {
-    display: block;
-    float: left;
-    margin: 5%;
-  }
 
-  .main-nav {
-    display: none;
-  }
-}
 
 
 
@@ -53,7 +40,6 @@
 @media only screen and (max-width: 680px) {
   .main-nav li {
     display: inline-block;
-    margin-left: 10px;
   }
 
   h1 {
@@ -61,11 +47,7 @@
   }
 }
 
-@media only screen and (max-width: 593px) {
-  .hide {
-    display: none;
-  }
-}
+
 
 @media only screen and (max-width: 500px) {
   h1 {
@@ -77,4 +59,28 @@
   h1 {
     font-size: 100%;
   }
+}
+
+@media only screen and (max-width: 550px) {
+  .main-nav {
+    display:flex;
+    text-align: center;
+    align-items: center
+  }
+  .main-nav li {
+    display:flex;
+    
+    margin: 0px 10px;
+  }
+
+  .main-nav li:last-child {
+   margin-right: 4px;
+  }
+
+  .sticky .main-nav {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+  
 }

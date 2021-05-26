@@ -1,10 +1,13 @@
 import React from "react";
-import { ListOutline } from "react-ionicons";
-import ImageAssets from "../../constants/ImageAssets";
 import LinkButton from "../atoms/LinkButton";
 import "./Nav.css";
 
-export const Nav = ({ isNavSticky }: { isNavSticky: boolean }) => {
+interface NavProps {
+  isNavSticky: boolean,
+}
+
+
+export const Nav = ({ isNavSticky }: NavProps) => {
   return (
     <nav className={isNavSticky ? "sticky" : ""}>
 
@@ -16,12 +19,6 @@ export const Nav = ({ isNavSticky }: { isNavSticky: boolean }) => {
         <LinkButton variant="header" href="#contact" name="Kontakt" />
       </ul>
 
-      <ListOutline
-        color={isNavSticky ? '#000' : "#fff"}
-        cssClasses="listOutline"
-        height="40px"
-        width="40px"
-      />
 
     </nav>
   );
