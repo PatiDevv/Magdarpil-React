@@ -1,6 +1,7 @@
 import React from "react";
 import useStickyState from "../../hooks/useStickyState";
 import PrimaryButton from "../atoms/PrimaryButton";
+import { ListOutline } from 'react-ionicons'
 import "./Header.css";
 import { Nav } from "./Nav";
 
@@ -10,6 +11,7 @@ export const Header = () => {
   return (
     <header ref={stickyState.componentRef} >
       <Nav isNavSticky={stickyState.isNavSticky} />
+
       <div className="hero-text-box">
         <h1>
           Rodzinna hodowla z sercem. <br />

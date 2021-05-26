@@ -6,10 +6,9 @@ export default function useStickyState() {
 
     useEffect(() => {
         function handleScroll(this: Window) {
-            console.log(this)
             const headerHeight = componentRef.current?.clientHeight
             if (headerHeight) {
-                if (headerHeight < this.scrollY) {
+                if (headerHeight < this.scrollY + 40) {
                     if (!isNavSticky) setNavSticky(true)
                 }
                 else {
