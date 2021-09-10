@@ -21,7 +21,7 @@
   border-radius: 100%;
   margin-right: 10px;
   margin-bottom: 2%;
-  box-shadow: 0 0 2em -10px #a471c1;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .map {
@@ -29,6 +29,7 @@
   margin-top: 70px;
   width: 60%;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .link {

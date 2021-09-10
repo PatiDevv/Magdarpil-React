@@ -14,8 +14,9 @@ import M1 from "../images/m_1.jpg";
 import M2 from "../images/m_2.jpg";
 import M3 from "../images/m_3.jpg";
 import M4 from "../images/m_4.jpg";
-import IzaSquere from "../images/iza_square.jpg";
+import IzaSquere from "../images/iza.jpeg";
 import map from "../images/mapa.png";
+import certificate from "../images/certyfikat_ZKwP.jpg";
 
 export default class ImageAssets {
   static ajraSmall = ajraSmall;
@@ -36,4 +37,5 @@ export default class ImageAssets {
   static M4 = M4;
   static IzaSquere = IzaSquere;
   static map = map;
+  static certificate = certificate;
 }

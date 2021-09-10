@@ -25,7 +25,7 @@ export const BeforeBuy = () => {
             text={
               <div>
                 <>
-                  Pies z rodowodem ZKwP FCI to&nbsp; <strong>pewność dobrych genów i zdrowego psa</strong>.
+                  Pies z rodowodem ZKwP FCI to&nbsp;<strong>pewność dobrych genów i zdrowego psa</strong>.
                 </>
               </div>
             }
@@ -107,7 +107,7 @@ export const BeforeBuy = () => {
           <strong>&nbsp;Twoje maleństwa zawsze będzie dla Ciebie na pierwszym planie, a piesek na drugim</strong>. Istnieje bardzo duże prawdopodobieństwo, że nie będziesz w stanie
           poświecić mu odpowiedniej ilości czasu.
           <strong>&nbsp;Dobro naszych szczeniaczków jest dla nas najważniejsze</strong>, dlatego zgłoś się do nas jak Twoje dzieciaczki będą w wieku szkolnym. Jest to okres czasu
-          kiedy będą mogły aktywnie uczesniczyć w wychowywaniu pieska, a Ty będziesz miał więcej czasu bo Twoje pociechy będą względnie samodzielne.
+          kiedy będą mogły aktywnie uczesniczyć w wychowywaniu pieska, a Ty będziesz miał więcej czasu, bo Twoje pociechy będą względnie samodzielne.
         </p>
 
         <h4>Maltańczyk psem dla mnie?</h4>
@@ -123,7 +123,7 @@ export const BeforeBuy = () => {
               </>
             }
             answer="Dla osób, które nie tolerują szczekania. Maltańczyk jest psem dość głośnym. Kiedy szczeka najczęściej? Podczas przywitania, czasem na spacerze. Czy da się to
-                opanować? Z doświadczenia powiem, że tak ale jest to ciężka praca."
+                opanować? Z doświadczenia powiem, że tak, ale jest to ciężka praca."
           />
           <QuestionIconAnswer
             question={
