@@ -12,11 +12,14 @@ export const Nav = ({ isNavSticky }: NavProps) => {
     <nav className={isNavSticky ? "sticky" : ""}>
 
       <ul className="main-nav">
-        <LinkButton variant="header" href="#ajra" name="Ajra" />
-        <LinkButton variant="header" href="#about-us" name="O nas" />
-        <LinkButton variant="header" href="#before-buy" name="Zanim kupisz" />
-        <LinkButton variant="header" href="#photos" name="Nasze szczeniaki" />
-        <LinkButton variant="header" href="#contact" name="Kontakt" />
+        <div className="logo-nav"><a href="#"><h5 className="header">Magdarpil </h5></a></div>
+        <div className="logo-nav">
+          <LinkButton variant="header" href="#ajra" name="Ajra" />
+          <LinkButton variant="header" href="#about-us" name="O nas" />
+          <LinkButton variant="header" href="#before-buy" name="Zanim kupisz" />
+          <LinkButton variant="header" href="#photos" name="Nasze szczeniaki" />
+          <LinkButton variant="header" href="#contact" name="Kontakt" /></div>
+
       </ul>
 
 

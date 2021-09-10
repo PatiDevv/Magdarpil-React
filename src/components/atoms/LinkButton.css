@@ -21,12 +21,7 @@
 
 /* Footer button */
 
-@media only screen and (max-width: 760px) {
-  .footer {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-}
+
 
 .footer a:link,
 .footer a:visited {
@@ -48,3 +43,21 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 850px) {
+  .footer {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .header{
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header{
+    margin-left: 15px;
+  }
+}
+
