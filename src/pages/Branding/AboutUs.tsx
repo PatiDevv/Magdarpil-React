@@ -33,6 +33,9 @@ export const AboutUs = () => {
           breederDescription="Spec od wystaw, oceny psów, social mediów. Człowiek psia encyklopedia. To właśnie ona odbierze telefon, gdy do nas zadzwonisz."
         />
       </div>
+      <div className="row">
+        <img className="certificate" src={ImageAssets.certificate} alt="Hodowca" />
+      </div>
     </section>
   );
 };

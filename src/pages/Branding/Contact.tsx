@@ -17,7 +17,7 @@ export const Contact = () => {
 
           <ContactSteps
             icon={<ChatbubbleEllipsesOutline color="#a471c1" height="45px" width="45px" />}
-            text="Cześć, Nazywam się Iza. W naszej hodowli odpowiadam za kontakt z Tobą. Odpowiem na każde Twoje pytanie. Szczerze, z form contactu najbardziej lubię rozmowę. Dzwoń,
+            text="Cześć, Nazywam się Iza. W naszej hodowli odpowiadam za kontakt z Tobą. Odpowiem na każde Twoje pytanie. Szczerze, z form kontaktu najbardziej lubię rozmowę. Dzwoń,
               śmiało!"
           />
 
