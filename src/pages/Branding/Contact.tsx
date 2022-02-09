@@ -13,20 +13,22 @@ export const Contact = () => {
 
       <div className="row">
         <div className="col span-1-of-2 contact-box">
-          <img src={ImageAssets.IzaSquere} alt="Izabela-Hodowca" className="photo-iza" />
+          <img src={ImageAssets.ONas1} alt="Izabela-Hodowca" className="photo-iza" />
 
           <ContactSteps
             icon={<ChatbubbleEllipsesOutline color="#a471c1" height="45px" width="45px" />}
-            text="Cześć, Nazywam się Iza. W naszej hodowli odpowiadam za kontakt z Tobą. Odpowiem na każde Twoje pytanie. Szczerze, z form kontaktu najbardziej lubię rozmowę. Dzwoń,
+            // text="Cześć, Nazywam się Iza. W naszej hodowli odpowiadam za kontakt z Tobą. Odpowiem na każde Twoje pytanie. Szczerze, z form kontaktu najbardziej lubię rozmowę. Dzwoń,
+            //   śmiało!"
+              text="Cześć, Nazywam się Dariusz. W naszej hodowli odpowiadam za kontakt z Tobą. Odpowiem na każde Twoje pytanie. Szczerze, z form kontaktu najbardziej lubię rozmowę. Dzwoń,
               śmiało!"
           />
 
           <ContactSteps
             icon={<CallOutline color="#a471c1" height="45px" width="45px" />}
             text="Numer telefonu:"
-            href="tel:+511327345"
-            hrefIcon="tel:+511327345"
-            phone=" 511-327-345"
+            href="tel:+603175711"
+            hrefIcon="tel:+603175711"
+            phone=" 603-175-711"
           />
         </div>
 
