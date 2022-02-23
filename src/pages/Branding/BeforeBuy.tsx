@@ -88,7 +88,7 @@ export const BeforeBuy = () => {
           <TimeOutlineIconPlusText
             text={
               <>
-                <strong>Socjalizacja</strong> - Pisek wychodząc z domu rodzinnego jest szocjalizowany odpowiednio do swojego wieku. Twoim zadaniem jest pokazać mu świat zewnętrzny
+                <strong>Socjalizacja</strong> - Pisek wychodząc z domu rodzinnego jest zsocjalizowany odpowiednio do swojego wieku. Twoim zadaniem jest pokazać mu świat zewnętrzny
                 tak, by w życiu dorosłym był psem odważnym i posłusznym.
               </>
             }
